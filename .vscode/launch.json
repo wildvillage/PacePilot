@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:PacePilot}",
+      "name": "Debug PacePilotTest",
+      "program": "${workspaceFolder:PacePilot}/.build/debug/PacePilotTest",
+      "preLaunchTask": "swift: Build Debug PacePilotTest"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:PacePilot}",
+      "name": "Release PacePilotTest",
+      "program": "${workspaceFolder:PacePilot}/.build/release/PacePilotTest",
+      "preLaunchTask": "swift: Build Release PacePilotTest"
+    }
+  ]
+}
