@@ -1,1 +1,7 @@
 .build
+.DS_Store
+
+PacePilot.xcodeproj/xcuserdata/
+PacePilot.xcworkspace/xcuserdata/
+
+.swiftpm/
